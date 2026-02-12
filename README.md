@@ -15,6 +15,9 @@ Build a MATLAB function `transform_points.m` that applies geometric transformati
 |------|-------------|
 | `transform_points.m` | **Your main deliverable** — fill in the TODO sections |
 | `test_transform.m` | Test suite — run frequently to check progress |
+| `demo_shapes.m` | Visualization script — see your transformations in action |
+| `test_data/sample_shapes.mat` | Sample shapes: square, triangle, house, arrow |
+| `test_data/expected_outputs.mat` | Pre-computed results to compare against |
 | `README.md` | This file |
 | `.gitignore` | Git configuration (do not modify) |
 
@@ -41,7 +44,8 @@ new_points = transform_points(points, type, T)
 2. Open `transform_points.m` in the MATLAB Editor
 3. Implement **rotation** first (it has the most test coverage)
 4. Run `test_transform` after each implementation
-5. **Commit and push** after each working transformation type
+5. Run `demo_shapes` to visualize your transformations on sample shapes
+6. **Commit and push** after each working transformation type
 
 ## Testing Your Code
 
@@ -50,6 +54,21 @@ new_points = transform_points(points, type, T)
 ```
 
 Target: **6/6 tests passing** before submission.
+
+## Visualizing Your Work
+
+```matlab
+>> demo_shapes
+```
+
+This loads sample shapes (square, triangle, house, arrow) from `test_data/sample_shapes.mat` and plots before/after comparisons for each transformation type. Edit the script to try different shapes.
+
+You can also load the expected outputs to compare manually:
+```matlab
+>> expected = load('test_data/expected_outputs.mat');
+>> expected.square_rot90    % square rotated 90 degrees
+>> expected.square_scaled_2_3  % square scaled by [2, 3]
+```
 
 ## Submission Checklist
 
