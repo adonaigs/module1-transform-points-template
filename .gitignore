@@ -1,0 +1,22 @@
+# MATLAB generated files
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mltbx
+
+# Simulink
+*.slxc
+slprj/
+
+# Figure files (students should export to PNG/JPG instead)
+*.fig
+
+# Build/output
+codegen/
+*.p
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
