@@ -3,7 +3,7 @@
 **Course:** ENG 1112 — Mini Projects: Coding and Linear Algebra  
 **Module:** 1 (Weeks 1–2)  
 **Weight:** 12% of course grade  
-**Due:** Sunday 11:59 PM (end of Week 2)  
+**Due:** Sunday 11:59 PM (end of Week 3)  
 
 ## Your Mission
 
